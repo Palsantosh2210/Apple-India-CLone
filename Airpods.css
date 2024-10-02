@@ -1,0 +1,303 @@
+*{
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* background-color: #f8f8f9; */
+}
+
+
+#airpods-sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(245, 245, 247, 0.7);
+    padding: 1% 24%;
+  }
+
+  #airpods-categories {
+    background-color: #fff;
+
+    height: 60px;
+    width: 130px;
+    text-align: center;
+  }
+
+  #airpods-sec1 img {
+    background-color: #fff;
+
+    height: 28px;
+    width: 40px;
+  }
+
+  #airpods-sec1 h3 {
+    background-color: #fff;
+
+    font-size: 8px;
+    color: #1d1d1f;
+    font-weight: 100;
+    text-decoration: none;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+  }
+
+  #airpods-sec1 a {
+    background-color: #fff;
+
+    color: #1d1d1f;
+    text-decoration: none;
+  }
+
+  #airpods-sec1 a:hover {
+    color: rgb(41, 159, 244);
+  }
+
+.get6months {
+    text-align: center;
+    background-color: #f8f8f9;
+    font-size: 8px;
+    line-height: 2.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+  }
+
+  .intro-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 95%;
+    height: 90%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    pointer-events: all;
+  }
+  .intro-video .introvideo-texts {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
+  .intro-video  .introvideo-text h1{
+    font-size: small;
+    color: tomato;
+    font-weight: 700;
+    margin: 0;
+  }
+  #introvideo-links{
+    margin-top: 150px;
+  }
+  #buy-button{
+    background-color: #06c;
+    border: none;
+    padding: 4px 8px;
+    color: #f8f8f9;
+    border-radius: 20px;
+  }
+  #learnmore{
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    font-size:13px;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+
+
+.bigcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    object-fit: contain;
+}
+  .bigcard1{
+    background-image: url("https://www.apple.com/v/airpods/v/images/overview/airpods_3rd_gen__dhy5bknhvtqq_large.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+  }
+  .bigcard2{
+    background-image: url("airpods\ 2\ bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+  }
+  
+  .bigcard3{
+    background-image: url("	https://www.apple.com/v/airpods/v/images/overview/airpods_max__f265q4g4ddym_large.png");
+    background-size: contain;
+    background-color: #f8f8f9;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 2rem;
+    width: 95%;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+  }
+  .bigcard1 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 80px;
+  }
+    .bigcard1 .text h1{
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+  .bigcard3 .text h1{
+    font-size: 6rem;
+    z-index: 0;
+  }
+    .bigcard1 .text h4{
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin: 0;
+    }
+    .bigcard1 .bigcard-links{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        /* in ceter */
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .bigcard1 .buy-button   {
+        background-color: #06c;
+        color: #fff;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .bigcard1 .learnmore-button{
+        background-color: transparent;
+        color: #06c;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+
+    .sec3title,.sec4title{
+        color: #1d1d1f;
+        font-size: 20px;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        padding: 0px 170px;
+        margin: 100px 0px 30px 0px;
+        text-align: center;
+    }
+    .section3{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f8f8f9;
+        padding: 20px;
+    }
+    .section3 .card{
+        background-color: #fff;
+        /* justify-content: center; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 250px;
+        width: 95%;
+        margin-top: 0;
+        margin: 0px 10px;
+        border-radius: 20px;
+
+    }
+    .section3 .card h4{
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0;
+        text-align: justify;
+    }
+
+    .section4{
+      background-image: url("section4img.png");
+      background-size: cover;
+      background-color: #f8f8f9;
+
+      height: 100vh;
+      background-position: center;
+    }
+    /* .section5{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  padding: 20px;
+  background-color: #f8f8f9;
+  border: 2px solid red;
+  height: 180vh;
+  width: 90vw;
+    }
+    .section5 .smallcard{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        background-color: red;
+        border: 4px solid blue;
+        object-fit: contain;
+    } */
+
+    .section5{
+      background-image: url("section5img.png");
+      background-size: cover;
+      background-color: #f8f8f9;
+
+      margin: 0 auto;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 80vw;
+      background-position: center;
+    }

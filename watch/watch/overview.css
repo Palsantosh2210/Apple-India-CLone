@@ -1,0 +1,6 @@
+@media only screen and (max-width: 734px) {
+	.feature-card .card-modifier {
+		max-height: 630px;
+		min-height: 505px;
+	}
+}
